@@ -71,4 +71,8 @@ public class Director {
                 ", age=" + age +
                 '}';
     }
+
+    public void addFilm(Film film) {
+        filmList.add(film);
+    }
 }
